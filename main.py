@@ -9,7 +9,7 @@ diabetes = datasets.load_diabetes()
 # print(diabetes.keys())
 # print(diabetes.data)
 diabetes_x = diabetes.data[:, np.newaxis, 2]
-print(diabetes_x)
+# print(diabetes_x)
 
 diabetes_x_train = diabetes_x[:-30]
 diabetes_x_test = diabetes_x[-30:]
